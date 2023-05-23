@@ -1,0 +1,142 @@
+/*body*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body {
+    background-color: #003051;
+}
+
+/*header*/
+header .LogoPrincipal {
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+header .Listas{
+    width: 100%;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    background-color: #FACD01;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+header nav ul li a{
+    color: #003051;
+    text-decoration: none;
+    margin: 120px;
+}
+
+/*main*/
+main .TextoUno{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 10px;
+}
+
+main div img{
+    width: 45%;
+}
+
+main .ImagenesLP{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .GrupoRwc{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+main section p{
+    color: white;
+    font-size: 35px;
+    margin: 0 50px;
+    line-height: 60px;
+}
+main .TextoFondo{
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    font-style: italic;
+    text-align: center;
+    margin: 0 750px;
+}
+main .PumasStore{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+}
+main .PumasStore img{
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+main .PumasStore figcaption{
+    color: white;
+    text-align: center;
+}
+
+main .Contacto{
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+main input{
+    font-size: 30px;
+    text-align: center;
+}
+
+main form button{
+    font-size: 20px;
+    padding: 0 50px;
+    margin: 0 280px;
+    background-color: #003051;
+    color: #FACD01;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+/*footer*/
+footer .TextoDos{
+    color: white;
+    font-size: 40px;
+    padding-right: 100px;
+}
+footer .Sponsors{
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+footer div a{
+    margin: 20px;
+    padding-left: 30px;
+}
+
+footer .LogosRedes img{
+    width: 50px;
+    height: auto;
+}
+footer .Derechos{
+    color: white;
+    text-align: right;
+    margin-right: 40px;
+}
